@@ -4,6 +4,7 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE `USER` (
+  `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
   `firstname` varchar(20) NOT NULL,
   `lastname` varchar(20) NOT NULL,
   `email` varchar(20) NOT NULL,
